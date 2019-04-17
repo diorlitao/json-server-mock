@@ -4,6 +4,8 @@
   "description": "json-server 和mockjs组合生产模拟数据",
   "main": "app.js",
   "scripts": {
+    "server": "cd static && nodemon server.js",
+    "dserver": "cd dynamic && nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
